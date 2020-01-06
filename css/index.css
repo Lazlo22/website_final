@@ -1,225 +1,262 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Arvo|Raleway');
 
 body {
-  background-color:#000000;
+  background-color: #000000;
   color: #ffffff;
-  max-width: 1200px;
+  max-width: 1350px;
   margin: auto;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-  margin:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(255,200,0);
+  border-color: #FFCC00;
 }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
- #main_font{
+#main_font {
   font-family: 'Architects Daughter', cursive;
   font-size: 4.5rem;
   text-align: center;
   margin-bottom: 9px;
 }
-#main_second{
+
+#main_second {
   text-align: center;
   margin-bottom: 13px;
   font-size: 1.5rem;
   font-family: 'Arvo', serif;
 }
-#home img{
-  width:100%;
-  height:750px;
-}
-@media (min-width: 928px){
-#info {
-  display:grid;
-  grid-columns: 50% 50%;
-  grid-rows: 10% 90% ;
-  margin-bottom: 20px;
-}
-#info img{
-grid-row-start: 2;
-width:100%;
+
+#home img {
+  width: 100%;
+  height: 630px;
 }
 
-#info p{
- grid-column:2;
- grid-row:2;
- margin-top: 17px;
- font-family: 'Arvo', serif;
- font-size: 18px;
- text-align: center;
- margin-left: 9px;
-}
-#info h2{
-  grid-row-start: 1;
-  grid-column-start: 2;
-  text-align: center;
-  margin-top: 18px;
-  font-size: 1.9rem;
-  font-family: 'Raleway', sans-serif;
-}
-}
-@media (max-width: 928px){
+@media (min-width: 928px) {
   #info {
-  display:grid;
-  grid-columns:100% ;
-  grid-rows: 10% 40% 50% ;
-  margin-bottom: 20px;
-}
-#info img{
-margin-top: 22px;
-grid-row-start: 3;
-width:100%;
-height:290px;
-}
-#info p{
- grid-row:2;
- margin-top: 17px;
- font-family: 'Arvo', serif;
- font-size: 18px;
- text-align: center;
- margin-left: 9px;
-}
-#info h2{
-  grid-row-start:1;
-  margin-top: 13px;
-  text-align: center;
-  font-size: 1.6rem;
-  font-family: 'Raleway', sans-serif;
-}
-}
-@media (min-width: 928px){
-#records {
-  display:grid;
-  grid-columns: 50% 50%;
-  grid-rows: 5% 95% ;
-}
-#records h2{
-  grid-column-start:1;
-  grid-row-start:1;
-  text-align: center;
-  font-size: 1.6rem;
-  font-family: 'Raleway', sans-serif;
-}
-#records img{
-  grid-column-start:2;
-  grid-row-start:2;
-  margin-left: 7px;
-  width:100%; 
-  min-height: 226px;
-  height: 100%;
-  max-height: 237px;
-}
-#records ul{
-  font-family: 'Arvo', serif;
-  grid-area:2/1/2/1;
-  font-size: 18px;
-  margin-top: 17px;
-}
-}
-@media (max-width: 928px){
-#records {
-  display:grid;
-  grid-columns:100% ;
-  grid-rows: 10% 40% 50% ;
-  margin-bottom: 20px;
-}
-#records h2{
-   grid-row-start:1;
-  margin-top: 13px;
-  text-align: center;
-  font-size: 1.6rem;
-  font-family: 'Raleway', sans-serif;
-}
-#records img{
-  margin-top: 19px;
-grid-row-start: 3;
-width:100%;
-height:290px;
-}
-#records ul{
-  grid-row:2;
- margin-top: 23px;
- font-family: 'Arvo', serif;
- font-size: 18px;
- margin-left: 9px;
-}
+    display: grid;
+    grid-columns: 50% 50%;
+    grid-rows: 10% 90%;
+    margin-bottom: 20px;
+  }
+
+  #info img {
+    grid-row-start: 2;
+    width: 100%;
+  }
+
+  #info p {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 17px;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 9px;
+  }
+
+  #info h2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    text-align: center;
+    margin-top: 18px;
+    font-size: 1.9rem;
+    font-family: 'Raleway', sans-serif;
+  }
 }
 
-@media (max-width: 928px){
- #gallery p{
-  text-align: center;
-  font-size: 1.6rem;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 20px;
-}
-}
-@media (min-width:928px){
-#gallery p{
-  text-align: center;
-  font-size: 1.6rem;
-  font-family: 'Raleway', sans-serif;
-  margin-top: 59px;
-}
-}
-#gallery img{
-  width:100%;
-  height:470px;
+@media (max-width: 928px) {
+  #home img {
+    width: 100%;
+    height: 350px;
+  }
+
+  #info {
+    display: grid;
+    grid-columns: 100%;
+    grid-rows: 10% 40% 50%;
+    margin-bottom: 20px;
+  }
+
+  #info img {
+    margin-top: 22px;
+    grid-row-start: 3;
+    width: 100%;
+    height: 290px;
+  }
+
+  #info p {
+    grid-row: 2;
+    margin-top: 17px;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 9px;
+  }
+
+  #info h2 {
+    grid-row-start: 1;
+    margin-top: 13px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+  }
 }
 
-.carousel-control-prev-icon , .carousel-control-next-icon{
+@media (min-width: 928px) {
+  #records {
+    display: grid;
+    grid-columns: 50% 50%;
+    grid-rows: 5% 95%;
+  }
+
+  #records h2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #records img {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 7px;
+    width: 100%;
+    min-height: 226px;
+    height: 100%;
+    max-height: 237px;
+  }
+
+  #records ul {
+    font-family: 'Arvo', serif;
+    grid-area: 2/1/2/1;
+    font-size: 18px;
+    margin-top: 17px;
+  }
+}
+
+@media (max-width: 928px) {
+  #records {
+    display: grid;
+    grid-columns: 100%;
+    grid-rows: 10% 40% 50%;
+    margin-bottom: 20px;
+  }
+
+  #records h2 {
+    grid-row-start: 1;
+    margin-top: 13px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #records img {
+    margin-top: 19px;
+    grid-row-start: 3;
+    width: 100%;
+    height: 290px;
+  }
+
+  #records ul {
+    grid-row: 2;
+    margin-top: 23px;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    margin-left: 9px;
+  }
+}
+
+@media (max-width: 928px) {
+  #gallery p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:928px) {
+  #gallery p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 59px;
+  }
+}
+
+#gallery img {
+  width: 100%;
+  height: 470px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#stay_tuned{
+#stay_tuned {
   display: grid;
-  grid-template-rows:13% 15% 10% 10%;
+  grid-template-rows: 13% 15% 10% 10%;
 }
-#stay_tuned h2{
-  grid-row-start:1;
+
+#stay_tuned h2 {
+  grid-row-start: 1;
   text-align: center;
   font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
   margin-top: 20px;
 }
 
-#stay_tuned #icons #face , #linked , #map_icon , #insta {
-  grid-row-start:2;
-  height:70px;
-  width:70px;
+#stay_tuned #icons #face,
+#linked,
+#map_icon,
+#insta {
+  grid-row-start: 2;
+  height: 70px;
+  width: 70px;
+  margin-top: 8px;
 }
 
-#stay_tuned #icons{
-   display: flex;
-   justify-content:space-around;
+#stay_tuned #icons {
+  display: flex;
+  justify-content: space-around;
 }
 
-#stay_tuned #note{
- font-family: 'Raleway', sans-serif;
- font-size: 20px;
- margin-top: 9px;
- text-align: center;
- grid-row-start: 3;
+#stay_tuned #note {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 9px;
+  text-align: center;
+  grid-row-start: 3;
 }
 
- #stay_tuned iframe{
-   border:0;
-   width: 60%;
-   height: 350px;
-   margin-left:20%;  
-   margin-right:20%;
-   border-radius: 18px; 
- }
+#stay_tuned iframe {
+  border: 0;
+  width: 60%;
+  height: 350px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 18px;
+}
 
-footer img{
-width: 25px;
-height:25px;
+footer img {
+  width: 25px;
+  height: 25px;
 }
 
 footer {
@@ -229,127 +266,127 @@ footer {
   margin-bottom: 14px;
 }
 
-footer #contacts{
+footer #contacts {
   margin-top: 30px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-footer #contacts h{
+footer #contacts h {
   font-size: 2rem;
   font-family: 'Architects Daughter', cursive;
   margin-bottom: 10px;
-}
-
-.css-shapes-preview { 
-    margin-left: 19.5%;
-    margin-right: 19.5%;
-    margin-top: 45px;
-    margin-bottom: 30px;
-    height: 240px; 
-    width: 60%; 
-    border-radius: 50px; 
-    border-top: 15px double #FFCC00; 
-    border-left: 15px double #FFCC00; 
-    border-right: 15px double #FFCC00; 
-    border-bottom: 15px double #FFCC00; 
-}
-
-@media (max-width: 752px){
-  @media (min-width: 432px){
-  footer #contacts h{
-  font-size: 2rem;
-  font-family: 'Architects Daughter', cursive;
-}
-
-.css-shapes-preview { 
-    margin-left: 17%;
-    margin-right: 20%;
-    margin-top: 45px;
-    margin-bottom: 30px;
-    height: 278px; 
-    width: 60%; 
-    border-radius: 50px; 
-    border-top: 15px double #FFCC00; 
-    border-left: 15px double #FFCC00; 
-    border-right: 15px double #FFCC00; 
-    border-bottom: 15px double #FFCC00; 
-}
-
-footer #mail-button , #pass-button {
-    margin-top: 17px;
-    height: 16px; 
-    width: 90%; 
-    padding: 0px; 
-    background-color: #E0E0E0; 
-    border-radius: 50px; 
-}
-
-footer #go-button {
-    height: 17px; 
-    width: 137px;  
-    margin-top:15px;
-    background-color: #E07902; 
-    border-radius: 15px;
-    padding: 0px; 
-}
-}
-}
-
-
-@media (max-width: 432px){
-  footer #contacts h{
-  font-size: 2rem;
-  font-family: 'Architects Daughter', cursive;
-}
-
-.css-shapes-preview { 
-    margin-left: 17%;
-    margin-right: 20%;
-    margin-top: 45px;
-    margin-bottom: 30px;
-    height: 320px; 
-    width: 60%; 
-    border-radius: 50px; 
-    border-top: 15px double #FFCC00; 
-    border-left: 15px double #FFCC00; 
-    border-right: 15px double #FFCC00; 
-    border-bottom: 15px double #FFCC00; 
-}
-
-footer #mail-button , #pass-button {
-    margin-top: 17px;
-    height: 16px; 
-    width: 90%; 
-    padding: 0px; 
-    background-color: #E0E0E0; 
-    border-radius: 50px; 
-}
-
-footer #go-button {
-    height: 17px; 
-    width: 137px;  
-    margin-top:15px;
-    background-color: #E07902; 
-    border-radius: 15px;
-    padding: 0px; 
-}
-}
-
-footer #mail-button , #pass-button {
   margin-top: 20px;
-    height: 30px; 
-    width: 90%; 
-    padding: 0px; 
-    background-color: #E0E0E0; 
-    border-radius: 50px; 
+}
+
+.css-shapes-preview {
+  margin-left: 19.5%;
+  margin-right: 19.5%;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  height: 240px;
+  width: 60%;
+  border-radius: 50px;
+  border-top: 15px double #FFCC00;
+  border-left: 15px double #FFCC00;
+  border-right: 15px double #FFCC00;
+  border-bottom: 15px double #FFCC00;
+}
+
+@media (max-width: 752px) {
+  @media (min-width: 432px) {
+    footer #contacts h {
+      font-size: 2rem;
+      font-family: 'Architects Daughter', cursive;
+    }
+
+    .css-shapes-preview {
+      margin-left: 17%;
+      margin-right: 20%;
+      margin-top: 45px;
+      margin-bottom: 30px;
+      height: 278px;
+      width: 60%;
+      border-radius: 50px;
+      border-top: 15px double #FFCC00;
+      border-left: 15px double #FFCC00;
+      border-right: 15px double #FFCC00;
+      border-bottom: 15px double #FFCC00;
+    }
+
+    footer #mail-button,
+    #pass-button {
+      margin-top: 17px;
+      height: 16px;
+      width: 90%;
+      padding: 0px;
+      background-color: #E0E0E0;
+      border-radius: 50px;
+    }
+
+    footer #go-button {
+      height: 17px;
+      width: 137px;
+      margin-top: 15px;
+      background-color: #E07902;
+      border-radius: 15px;
+      padding: 0px;
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  footer #contacts h {
+    font-size: 2rem;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .css-shapes-preview {
+    margin-left: 17%;
+    margin-right: 20%;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    height: 320px;
+    width: 60%;
+    border-radius: 50px;
+    border: 15px double #FFCC00;
+  }
+
+  footer #mail-button,
+  #pass-button {
+    margin-top: 17px;
+    height: 16px;
+    width: 90%;
+    padding: 0px;
+    background-color: #E0E0E0;
+    border-radius: 50px;
+  }
+
+  footer #go-button {
+    height: 17px;
+    width: 137px;
+    margin-top: 15px;
+    background-color: #E07902;
+    border-radius: 15px;
+    padding: 0px;
+  }
+}
+
+footer #mail-button,
+#pass-button {
+  margin-top: 20px;
+  height: 30px;
+  width: 90%;
+  padding: 0px;
+  background-color: #E0E0E0;
+  border-radius: 50px;
 }
 
 footer #go-button {
-    height: 40px; 
-    width: 137px;  
-    margin-top:15px;
-    background-color: #E07902; 
-    border-radius: 15px;
-    padding: 0px; 
+  height: 40px;
+  width: 137px;
+  margin-top: 15px;
+  background-color: #E07902;
+  border-radius: 15px;
+  padding: 0px;
 }
